@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container {
+  border-bottom: 1px solid #E3E8F1;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header_title {
+  --tw-text-opacity: 1;
+  color: rgb(3 105 161 / var(--tw-text-opacity));
+}
+.container .sub_text {
+  font-size: .75rem;
+  line-height: 1rem;
+  color: #6E788B;
+  font-weight: 400;
+}
+
+.sideMenu {
+  width: 30vh;
+  /* border: 1px solid red; */
+  height: 10;
+  border-right: 1px solid #E3E8F1;
+}
+.upgrade {
+  padding-top: .875rem;
+  /* border: 1px solid red; */
+  padding: 15px;
+  margin: 30vh 0;
+}
+.UpgradeText {
+  font-weight: 600;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 10px;
+  color: #0E172B;
+  background: white;
+}
+.upgradeSubText {
+  display: block;
+  color: #65759A;
+  margin-bottom: 20px;
+  background: white;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #0E172B;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.775rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+.button:hover {
+  background: #272E3F;
+}

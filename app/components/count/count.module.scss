@@ -1,0 +1,17 @@
+@import '../../colors.scss';
+
+
+.button {
+    padding: 10px;
+    border: none;
+    color: $whiteColor;
+    background: $mainTextColor;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.disabled {
+    background: #ccc;
+    color: $mainTextColor;
+    cursor: default;
+}
